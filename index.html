@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List JSpuro</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <h1>To Do List JS </h1>
+    <div class="backdiv">
+        <div class="container">
+            <div class="addTask">
+                <input type="text" name="addTask" id="addTask">
+                <button onclick="addTask()" type="submit" class="button">Add Task</button>
+            </div>
+
+            <ul id="list">
+
+            </ul>
+
+            <div class="delete">
+                <button onclick="deleteAllTasks()"> Delete all Tasks </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="src.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+.backdiv{
+    background-image: linear-gradient(90deg,red, transparent);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.addTask{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container{
+    width: 30vw;
+    height: 50vh;
+    border: 1px, solid, black;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:  inset 0 0 3em white, 0 0 3em black;
+}
+
+.button{
+    border-radius: 10px;
+    border-width:  0.01px
+    
+    
+}
+#addTask{
+    border-radius: 5px;
+    border-width:  0.01px
+}
+
+.delete{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+ .delete button{
+    padding: 8px 4px;
+    border-radius: 10px;
+    border-width: 0.01px;
+ }
+
+ul{
+    list-style: none;
+    margin-left: -34px
+}
+
+li{
+    
+}
+
+.scratched{
+    text-decoration: line-through
+}
